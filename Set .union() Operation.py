@@ -1,0 +1,7 @@
+n=int(input())
+a=list(map(int,input().split()))
+m=int(input())
+b=list(map(int,input().split()))
+sa=set(a)
+sb=set(b)
+print(len(sa|sb))
